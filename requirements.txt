@@ -1,0 +1,5 @@
+asyncio
+aiohttp
+tqdm
+pandas
+scipy
