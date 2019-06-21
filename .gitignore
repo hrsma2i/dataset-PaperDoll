@@ -1,5 +1,3 @@
 .ipynb_checkpoints
 data-v1.0.tar
-data/*
-images/*
-labels/*
+raw/*
