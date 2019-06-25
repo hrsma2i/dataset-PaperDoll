@@ -35,12 +35,24 @@ Our json schema is the followings.
 ## Setup
 
 ```
+pipenv sync
+```
+
+or
+
+```
 pip install -r requirements.txt
 ```
 
 ```
+cd $DATASET_ROOT/raw
 wget http://vision.cs.stonybrook.edu/~kyamagu/paperdoll/data-v1.0.tar
 tar xvf data-v1.0.tar
+```
+
+```
+wget https://github.com/kyamagu/paperdoll/raw/master/data/chictopia/chictopia.sql.gz
+gunzip -c chictopia.sql.gz | sqlite3 chictopia.sqlite3
 ```
 
 ```
